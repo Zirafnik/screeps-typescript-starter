@@ -2,16 +2,16 @@
     "name": "screeps-typescript-starter",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "main.ts",
     "scripts": {
         "build": "rollup -c",
         "push": "rollup -c --environment DEST:main",
         "watch": "rollup -cw --environment DEST:main"
     },
     "private": true,
-    "author": "",
+    "author": "Zirafnik",
     "engines": {
-        "node": "10.x || 12.x"
+        "node": "10.x"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^20.0.0",
